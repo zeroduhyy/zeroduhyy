@@ -6,7 +6,7 @@
 
 ## Overview
 
-Hello, I'm **Rust1er** (@zeroduhyy). I build high-performance systems, developer tools, and backend services.
+Hello, I'm **Rust1er** (@zeroduhyy). I'm an aspiring IC engineer, a coding enthusiast, and a lover of anime and Japanese culture.
 
 
 ## GitHub Stats
@@ -44,7 +44,7 @@ Hello, I'm **Rust1er** (@zeroduhyy). I build high-performance systems, developer
 <!-- snake -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zeroduhyy/zeroduhyy/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zeroduhyy/zeroduhyy/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zeroduhyy/zeroduhyy/output/github-snake.svg" />
   <img alt="github-snake" src="github-snake.svg" />
 </picture>
 
