@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Snake — Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Snake — Canvas Demo</h1>
+    <p class="hint">Use Arrow keys or WASD to move. Press <strong>Space</strong> to pause / resume.</p>
+    <canvas id="game" width="600" height="600" aria-label="Snake game canvas"></canvas>
+    <div class="info">
+      <span id="score">Score: 0</span>
+      <button id="restart">Restart</button>
+    </div>
+    <footer>
+      <small>Simple snake demo — grid-based animation using requestAnimationFrame</small>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
