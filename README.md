@@ -43,7 +43,8 @@ Hello, I'm **Rust1er** (@zeroduhyy). I build high-performance systems, developer
 
 <!-- snake -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/zeroduhyy/zeroduhyy/blob/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zeroduhyy/zeroduhyy/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zeroduhyy/zeroduhyy/output/github-snake-dark.svg" />
   <img alt="github-snake" src="github-snake.svg" />
 </picture>
 
