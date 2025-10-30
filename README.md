@@ -13,7 +13,7 @@ Hello, I'm **Rust1er** (@zeroduhyy). I build high-performance systems, developer
 
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zeroduhyy&show_icons=true&theme=tokyonight" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=zeroduhyy&show_icons=true&theme=tokyonight" alt="GitHub stats" /><br>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zeroduhyy&layout=compact&theme=tokyonight" alt="Top languages" />
 </p>
 
@@ -40,6 +40,12 @@ Hello, I'm **Rust1er** (@zeroduhyy). I build high-performance systems, developer
     <img src="https://img.shields.io/github/followers/zeroduhyy?label=Followers&style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
   </a>
 </p>
+
+<!-- snake -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/zeroduhyy/zeroduhyy/blob/output/github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
 
 
 
