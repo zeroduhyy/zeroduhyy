@@ -1,19 +1,12 @@
 name: generate-snake
 
 on:
-  # 每 12 小时自动运行一次
   schedule:
     - cron: "0 */12 * * *"
-
-  # 允许手动触发执行
   workflow_dispatch:
-
-  # 每当push到master分支时自动执行
   push:
     branches:
-    - master
-
-
+      - master
 
 jobs:
   generate:
@@ -27,23 +20,22 @@ jobs:
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v2
         with:
-          github_user_name: ${{ github.repository_owner }}
-          output: dist/github-contribution-grid-snake.svg
+          github_user_name: zeroduhyy
+          outputs: dist/github-contribution-grid-snake.svg
 
       # 暗黑主题
       - name: Generate github-contribution-grid-snake-dark.svg
         uses: Platane/snk/svg-only@v2
         with:
-          github_user_name: ${{ github.repository_owner }}
-          output: dist/github-contribution-grid-snake-dark.svg
-          palette: github-dark
+          github_user_name: zeroduhyy
+          outputs: dist/github-contribution-grid-snake-dark.svg
+          dark_mode: true
 
       # Push 到 output 分支
       - name: Push dist to output branch
         uses: crazy-max/ghaction-github-pages@v2.6.0
         with:
-          target_branch: output
+          target_branch: output   # ← 指定分支
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
