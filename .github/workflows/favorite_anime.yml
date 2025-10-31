@@ -28,7 +28,7 @@ jobs:
       - name: Generate favorites.svg
         run: |
           mkdir -p dist
-          python generate_favorites_svg.py --user rust1er --out dist/favorites.svg
+          python scripts/generate_favorites_svg.py --user rust1er --out dist/favorites.svg
           ls -l dist
 
       - name: Push favorites.svg to the anime branch

@@ -4,7 +4,7 @@
 
 
 
-<p align="left">
+<p align="center">
   <img src="img/profile.jpg" alt="avatar" width="120" height="120" style="border-radius:50%;object-fit:cover;display:inline-block;margin:0;" />
 </p>
 
@@ -47,6 +47,21 @@ Hello, I'm **Rust1er** (@zeroduhyy). I focus on building reliable, high-performa
 
 
 ## Social
+
+
+
+<picture>
+  <img alt="favorites_anime" src="https://raw.githubusercontent.com/zeroduhyy/zeroduhyy/anime/favorites.svg" />
+</picture>
+
+
+
+<p>
+  <img src="img/matrix-code-rain-v0.2-downpour.gif"  />
+</p>
+
+
+
 <p align="center">
   <a href="https://github.com/zeroduhyy" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-zeroduhyy-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
@@ -55,11 +70,3 @@ Hello, I'm **Rust1er** (@zeroduhyy). I focus on building reliable, high-performa
     <img src="https://img.shields.io/github/followers/zeroduhyy?label=Followers&style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
   </a>
 </p>
-
-<p>
-  <img src="img/matrix-code-rain-v0.2-downpour.gif"  />
-</p>
-
-
-
-
