@@ -1,6 +1,3 @@
-<p>
-  <img src="img/matrix-code-rain-v0.2-downpour.gif"  />
-</p>
 
 <h1 align="center">👾 Hi, I'm Rust1er</h1>
 
@@ -59,6 +56,9 @@ Hello, I'm **Rust1er** (@zeroduhyy). I focus on building reliable, high-performa
   </a>
 </p>
 
+<p>
+  <img src="img/matrix-code-rain-v0.2-downpour.gif"  />
+</p>
 
 
 
