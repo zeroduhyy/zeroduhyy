@@ -27,20 +27,14 @@ jobs:
 
       - name: Generate favorites.svg
         run: |
-          python generate_favorites_svg.py --user rust1er
-          echo "当前目录内容："
-          ls -al
-          mkdir -p favorites
-          mv favorites.svg favorites/
-          echo "favorites 文件夹内容："
-          ls -al favorites
+          mkdir -p dist_fav
+          python generate_favorites_svg.py --user rust1er --out dist_fav/favorites.svg
+          ls -l dist_fav
 
       - name: Push favorites.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
-          build_dir: favorites
-          keep_history: true
-          allow_empty_commit: true
+          build_dir: dist_fav
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
