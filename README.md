@@ -1,12 +1,31 @@
+<p>
+  <img src="img/matrix-code-rain-v0.2-downpour.gif"  />
+</p>
+
 <h1 align="center">👾 Hi, I'm Rust1er</h1>
 
-<p align="center">
-  <img src="profile.jpg" alt="avatar" width="120" height="120" style="border-radius:50%;object-fit:cover;display:block;margin:0 auto;" />
+
+
+
+<p align="left">
+  <img src="img/profile.jpg" alt="avatar" width="120" height="120" style="border-radius:50%;object-fit:cover;display:inline-block;margin:0;" />
 </p>
 
 ## Overview
 
-Hello, I'm **Rust1er** (@zeroduhyy). I'm an aspiring IC engineer, a coding enthusiast, and a lover of anime and Japanese culture.
+Hello, I'm **Rust1er** (@zeroduhyy). I focus on building reliable, high-performance systems and enjoy crafting elegant code.
+
+- **Aspiring IC Engineer** 
+- **Coding Enthusiast** 
+- **Anime & Culture Lover** 
+
+
+<!-- snake -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zeroduhyy/zeroduhyy/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zeroduhyy/zeroduhyy/output/github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
 
 
 ## GitHub Stats
@@ -16,7 +35,6 @@ Hello, I'm **Rust1er** (@zeroduhyy). I'm an aspiring IC engineer, a coding enthu
   <img src="https://github-readme-stats.vercel.app/api?username=zeroduhyy&show_icons=true&theme=tokyonight" alt="GitHub stats" /><br>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zeroduhyy&layout=compact&theme=tokyonight" alt="Top languages" />
 </p>
-
 
 
 ## Languages & Tools
@@ -41,12 +59,6 @@ Hello, I'm **Rust1er** (@zeroduhyy). I'm an aspiring IC engineer, a coding enthu
   </a>
 </p>
 
-<!-- snake -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zeroduhyy/zeroduhyy/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zeroduhyy/zeroduhyy/output/github-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
-</picture>
 
 
 
