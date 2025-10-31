@@ -26,12 +26,15 @@ jobs:
         run: pip install requests pillow
 
       - name: Generate favorites.svg
-        run: python generate_favorites_svg.py --user rust1er
+        run: |
+          python generate_favorites_svg.py --user rust1er
+          mkdir -p favorites
+          mv favorites.svg favorites/
 
       - name: Push favorites.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
-          build_dir: .
+          build_dir: favorites
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
