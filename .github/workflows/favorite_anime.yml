@@ -23,7 +23,7 @@ jobs:
           python-version: 3.11
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests pillow
 
       - name: Generate favorites.svg
         run: python generate_favorites_svg.py --user rust1er
