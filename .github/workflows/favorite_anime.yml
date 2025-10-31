@@ -27,14 +27,14 @@ jobs:
 
       - name: Generate favorites.svg
         run: |
-          mkdir -p dist_fav
-          python generate_favorites_svg.py --user rust1er --out dist_fav/favorites.svg
-          ls -l dist_fav
+          mkdir -p dist
+          python generate_favorites_svg.py --user rust1er --out dist/favorites.svg
+          ls -l dist
 
-      - name: Push favorites.svg to the output branch
+      - name: Push favorites.svg to the anime branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output
-          build_dir: dist_fav
+          target_branch: anime
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
